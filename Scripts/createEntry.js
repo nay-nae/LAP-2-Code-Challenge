@@ -1,3 +1,5 @@
+db = connect("localhost:27017/posts");
+
 db.createCollection("new entry", {
     validator: {
         $jsonSchema:{
