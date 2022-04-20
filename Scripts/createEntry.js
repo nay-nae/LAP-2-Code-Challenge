@@ -19,4 +19,4 @@ db.createCollection("new entry", {
             }
         }
     }
-}
+})
